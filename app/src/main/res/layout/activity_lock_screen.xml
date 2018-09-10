@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/layout_passwd_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/rLayout">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="2"/>
+
+        <Button
+            android:id="@+id/b3"
+            android:text="3"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/b4"
+            android:text="4"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/b5"
+            android:text="5"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/b6"
+            android:text="6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <Button
+            android:id="@+id/b7"
+            android:text="7"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/b8"
+            android:text="8"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/b9"
+            android:text="9"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <view class="lockscreen.u2d.model.MyButton"
+            android:id="@+id/b0"
+            android:text="0"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

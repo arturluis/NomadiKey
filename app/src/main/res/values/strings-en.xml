@@ -1,0 +1,86 @@
+<resources>
+    <!--<string name="app_name">Secure lock screen</string>-->
+
+    <!--<string name="hello_world">Hello world!</string>-->
+    <!--<string name="action_settings">Settings</string>-->
+    <!--<string name="title_activity_input_password">InputPasswordActivity</string>-->
+
+    <!--&lt;!&ndash; ACTIVITY TITLES &ndash;&gt;-->
+
+    <!--<string name="inputPasswdTitle">Alterar senha</string>-->
+
+    <!--&lt;!&ndash; END OF ACTIVITY TITLES &ndash;&gt;-->
+
+    <!--&lt;!&ndash;TEXT VIEWS&ndash;&gt;-->
+
+    <!--<string name="tvInputStroke">Create a stroke</string>-->
+    <!--<string name="tvConfirmStroke">Confirm your stroke</string>-->
+    <!--<string name="tvInputPasswd">Type your new password</string>-->
+    <!--<string name="tvConfirmPasswd">Confirm your new password</string>-->
+    <!--<string name="nativeKeyguard">Native Keyguard</string>-->
+    <!--<string name="tvClearPasswdFile">Remove stored nomadPassword</string>-->
+    <!--<string name="general">General</string>-->
+    <!--<string name="stgLock">Standard lock</string>-->
+    <!--<string name="icLock">Incoming call lock</string>-->
+    <!--<string name="std_change_passwd">Change Password</string>-->
+    <!--<string name="delete_passwd">ResetPassword</string>-->
+    <!--<string name="test_passwd">Test Password</string>-->
+    <!--<string name="std_change_stroke">Change stroke</string>-->
+    <!--<string name="delete_stroke">Reset stroke</string>-->
+    <!--<string name="test_stroke">Test stroke</string>-->
+    <!--<string name="stdLockSummary">Enable/disable lock screen</string>-->
+    <!--<string name="icLockSummary">Enable/disable one stroke lock screen to answer incoming calls</string>-->
+    <!--<string name="incomingCall">Incoming call! Enter the PIN to answer the call.</string>-->
+    <!--<string name="tvPinReactionLog">Reaction time of PIN lock</string>-->
+    <!--<string name="tvStrokeReactionLog">Reaction time of Stroke lock</string>-->
+    <!--<string name="PrefPinReactionLog">Reaction time Log</string>-->
+    <!--<string name="PrefStrokeReactionLog">Reaction time Log</string>-->
+
+    <!--&lt;!&ndash;END OF TEXT VIEWS&ndash;&gt;-->
+
+    <!--&lt;!&ndash;BUTTONS&ndash;&gt;-->
+
+    <!--<string name="bConfirm">Confirm</string>-->
+    <!--<string name="bCancel">Cancel</string>-->
+    <!--<string name="bErase">Erase</string>-->
+    <!--<string name="bClickNDrag">Click and drag</string>-->
+    <!--<string name="bStrokeMe">Stroke me to unlock</string>-->
+    <!--<string name="bSend">Send by e-mail</string>-->
+    <!--<string name="bEraseLog">Erase log</string>-->
+
+    <!--&lt;!&ndash;END OF BUTTONS&ndash;&gt;-->
+
+    <!--&lt;!&ndash;TOASTS&ndash;&gt;-->
+
+    <!--<string name="passwdCorrect">Password is correct. Unlocking device.</string>-->
+    <!--<string name="incorrectPasswd">Password incorrect. Please, try again.</string>-->
+    <!--<string name="incorrectStroke">Stroke incorrect. Please, try again.</string>-->
+    <!--<string name="typedNotMatchPasswd">Typed passwords do not match. Please, try again.</string>-->
+    <!--<string name="typedNotMatchStroke">Strokes do not match. Please, try again.</string>-->
+    <!--<string name="newPasswdSet">New password set</string>-->
+    <!--<string name="newStrokeSet">New stroke set</string>-->
+    <!--<string name="emptyPasswd">Empty Password. Please, type your new Password.</string>-->
+    <!--<string name="passwdResetted">Password reset</string>-->
+    <!--<string name="passwdNotResetted">Password not reset</string>-->
+    <!--<string name="strokeReset">Stroke reset</string>-->
+    <!--<string name="strokeNotReset">Stroke not reset</string>-->
+    <!--<string name="passwdNotSet">No Password set. Let\'s do it now</string>-->
+    <!--<string name="strokeNotSet">No stroke set. Let\'s do it now</string>-->
+    <!--<string name="reset">Reset Password?</string>-->
+    <!--<string name="msg_reset">Do you really want to reset the Password? This action can not be undone.</string>-->
+    <!--<string name="yes">Yes</string>-->
+    <!--<string name="no">No</string>-->
+    <!--<string name="title_activity_one_stroke_input_password">OneStrokeInputPasswordActivity</string>-->
+    <!--<string name="createPasswdFirst">No Password set. Create one first</string>-->
+    <!--<string name="createOneStrokeFirst">No stroke set. Create one first</string>-->
+    <!--<string name="title_activity_stroke_lock_screen">StrokeLockScreen</string>-->
+    <!--<string name="title_activity_log">LogActivity</string>-->
+    <!--<string name="title_activity_standard_keyboard">StandardKeyboard</string>-->
+
+    <!--<string name="title_activity_generic_lock_screen">GenericLockScreenActivity</string>-->
+    <!--<string name="dummy_button">Dummy Button</string>-->
+    <!--<string name="dummy_content">DUMMY\nCONTENT</string>-->
+
+    <!--&lt;!&ndash;END OF TOASTS&ndash;&gt;-->
+
+</resources>

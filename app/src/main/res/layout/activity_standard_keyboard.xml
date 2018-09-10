@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="lockscreen.u2d.controller.StandardKeyboardActivity">
+
+    <include layout="@layout/layout_passwd_field"/>
+
+    <include layout="@layout/std_keyboard" />
+
+</LinearLayout>

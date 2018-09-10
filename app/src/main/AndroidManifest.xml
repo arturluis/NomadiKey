@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lockscreen" >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="lockscreen.u2d.controller.WelcomeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lockscreen.u2d.controller.InputPasswordActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_input_password" >
+            <intent-filter>
+                <action android:name="action.NEW_PASSWORD" />
+                <action android:name="action.NEW_PASSWORD_STROKE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lockscreen.u2d.controller.LockScreenActivity"
+            android:label="@string/title_activity_input_password"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.action.SCREEN_ON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lockscreen.u2d.controller.OneStrokeInputPasswordActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_one_stroke_input_password" >
+            <intent-filter>
+                <action android:name="action.NEW_STROKE" />
+                <action android:name="action.NEW_STROKE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="lockscreen.u2d.controller.StrokeLockScreenActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_stroke_lock_screen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="IC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="lockscreen.u2d.controller.AEScreenOnOffService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.androidexample.screenonoff.AEScreenOnOffService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="lockscreen.u2d.controller.LogActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_log" >
+        </activity>
+
+        <service
+            android:name="lockscreen.u2d.controller.ServerService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name="lockscreen.u2d.controller.StandardKeyboardActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_standard_keyboard" >
+        </activity>
+        <activity
+            android:name="lockscreen.u2d.controller.GenericLockScreenActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_generic_lock_screen" >
+        </activity>
+        <activity
+            android:name="lockscreen.u2d.controller.SettingsPasswordTestActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_settings_password_test" >
+        </activity>
+        <activity
+            android:name="lockscreen.u2d.controller.QuestionsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_questions" >
+        </activity>
+        <activity
+            android:name="lockscreen.u2d.controller.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:label="Tests" >
+        </activity>
+    </application>
+
+</manifest>

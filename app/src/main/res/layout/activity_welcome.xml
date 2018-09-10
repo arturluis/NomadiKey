@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="lockscreen.u2d.controller.WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Olá,"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="Este teste ocorrerá da seguinte forma: o aplicativo irá gerar uma senha aleatória que você deverá cadastrar no próprio aplicativo. Após cadastrar, o aplicativo irá pedir que se autentique com a senha 3 vezes, a senha estará visível durante todo o processo de autenticação. Esse processo de cadastro e autenticação será repetido 5 vezes, totalizando 15 autenticações. Após as autenticações, o aplicador te pedirá para preencher um questionário. As questões do questionário tem caráter puramente demográfico e suas informações serão tratadas com sigilo absoluto.\n\nAgradecemos pela sua ajuda."
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_above="@+id/buttonContinuar" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:id="@+id/buttonContinuar"/>
+
+
+</RelativeLayout>

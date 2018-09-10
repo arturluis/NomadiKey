@@ -1,0 +1,85 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Testes">
+
+        <!--STD-->
+        <Preference
+            android:key="stdTest"
+            android:title="1) Teclado padrão"/>
+
+        <!--NOMAD-->
+        <Preference
+            android:key="nomadTest"
+            android:title="2) NomadiKey"/>
+
+        <!-- RANDOM -->
+        <Preference
+            android:key="randomTest"
+            android:title="3) Teclado aleatório"/>
+
+        <!--NOMAD2-->
+        <Preference
+            android:key="nomadTest2"
+            android:title="4) NomadiKey++"/>
+
+        <!--<Preference-->
+            <!--android:key="stdColorTest"-->
+            <!--android:title="2) Standard with color"/>-->
+
+        <!--<Preference-->
+            <!--android:key="stdStrokeTest"-->
+            <!--android:title="3) Standard with stroke"/>-->
+
+        <!--<Preference-->
+            <!--android:key="stdColorStrokeTest"-->
+            <!--android:title="4) Standard with color and stroke"/>-->
+
+
+
+        <!--<Preference-->
+            <!--android:key="nomadColorTest"-->
+            <!--android:title="6) Nomad with color"/>-->
+
+        <!--<Preference-->
+            <!--android:key="nomadStrokeTest"-->
+            <!--android:title="7) Nomad with stroke"/>-->
+
+        <!--<Preference-->
+            <!--android:key="nomadColorStrokeTest"-->
+            <!--android:title="8) Nomad with color and stroke"/>-->
+
+        <!--&lt;!&ndash;ANSWER CALL&ndash;&gt;-->
+        <!--<Preference-->
+            <!--android:key="acTest0"-->
+            <!--android:title="9) Answer call - Default"/>-->
+
+        <!--<Preference-->
+            <!--android:key="acTest1"-->
+            <!--android:title="10) Answer call - PIN size 1"/>-->
+
+        <!--<Preference-->
+            <!--android:key="acTest2"-->
+            <!--android:title="11) Answer call - PIN size 2"/>-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Questionário">
+
+        <Preference
+            android:key="openQuestion"
+            android:title="Responder questionário"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Log">
+
+        <Preference
+            android:key="viewLog"
+            android:title="Ver Log"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="testCategory"
+        android:title="">
+
+        <!--<Preference android:title="Alterar senha"-->
+            <!--android:key="changePasswd"/>-->
+
+        <Preference android:title="Testar senha"
+            android:key="testPasswd"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

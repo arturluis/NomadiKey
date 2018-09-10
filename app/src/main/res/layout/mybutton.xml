@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view class="lockscreen.u2d.model.MyButton"
+    android:id="@+id/mButton"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:textSize="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

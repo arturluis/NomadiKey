@@ -1,0 +1,89 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/stgLock">
+
+        <!--<CheckBoxPreference android:title="Standard lock enabled"-->
+            <!--android:key="stdEnabledCheckBox"-->
+            <!--android:summary="@string/stdLockSummary"-->
+            <!--android:defaultValue="false"/>-->
+
+
+        <Preference android:title="Change Standard Keyboard Password"
+            android:key="changeStd">
+
+        </Preference>
+
+        <Preference android:title="Change Nomad Keyboard Password"
+            android:key="changeNomad">
+
+        </Preference>
+
+        <Preference android:title="Change Nomad+Stroke Keyboard Password"
+            android:key="changeNomadStroke">
+
+        </Preference>
+
+
+        <Preference
+            android:key="stdTestPasswd1"
+            android:title="Standard">
+        </Preference>
+        <Preference
+            android:key="stdTestPasswd4"
+            android:title="Standard with color">
+        </Preference>
+        <Preference
+            android:key="stdTestPasswd2"
+            android:title="Nomad without Stroke">
+        </Preference>
+        <Preference
+            android:key="stdTestPasswd3"
+            android:title="Nomad with Stroke">
+        </Preference>
+
+        <Preference
+            android:key="stdReactionLog"
+            android:title="@string/PrefPinReactionLog">
+        </Preference>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/icLock">
+
+        <!--<CheckBoxPreference android:title="Incoming call lock enabled"-->
+            <!--android:key="icEnabledCheckBox"-->
+            <!--android:summary="@string/icLockSummary"-->
+            <!--android:defaultValue="false">-->
+
+        <!--</CheckBoxPreference>-->
+
+        <Preference android:title="@string/std_change_stroke">
+
+            <intent
+                android:action="action.NEW_STROKE"
+                android:targetClass="lockscreen.u2d.controller.OneStrokeInputPasswordActivity"/>
+
+        </Preference>
+
+        <Preference
+            android:key="icResetPasswd"
+            android:title="@string/delete_stroke">
+        </Preference>
+
+        <Preference
+            android:key="icTestPasswd"
+            android:title="@string/test_stroke">
+        </Preference>
+
+        <Preference
+            android:key="icReactionLog"
+            android:title="@string/PrefStrokeReactionLog">
+        </Preference>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
